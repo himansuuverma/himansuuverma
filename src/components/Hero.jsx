@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center bg-primary-bg relative overflow-hidden">      
+    <section id="hero" className="min-h-screen flex items-center justify-center bg-primary-bg relative overflow-hidden mt-24">      
       <div className="absolute inset-0 opacity-5">
         <img src="https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg" alt="background pattern" className="w-full h-full object-cover"/>
       </div>
@@ -25,7 +25,7 @@ const Hero = () => {
           <h1 className="text-5xl sm:text-7xl md:text-8xl font-bold text-text-primary mb-4">
             {personalInfo.name}.
           </h1>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-text-secondary mb-6">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-text-secondary mb-6">
             <TypeAnimation
               sequence={[
                 'I build things.',
