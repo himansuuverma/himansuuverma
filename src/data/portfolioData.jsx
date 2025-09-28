@@ -13,7 +13,7 @@ export const personalInfo = {
   email: "himansuuverma@gmail.com",
   linkedin: "https://linkedin.com/in/himansuuverma",
   github: "https://github.com/himansuuverma",
-  resumeLink: "/himansuuverma/resume.pdf", 
+  resumeLink: `${import.meta.env.BASE_URL}resume.pdf`, 
   bio: "Experienced in designing and delivering scalable, high-performance applications. Passionate about solving complex problems, building robust systems, and driving innovation through clean architecture and best practices.",
   shortBio: "I get things done."
 };
