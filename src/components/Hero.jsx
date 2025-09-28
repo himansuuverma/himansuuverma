@@ -30,8 +30,6 @@ const Hero = () => {
               sequence={[
                 'I build things.',
                 2000,
-                'I am a Software Developer.',
-                2000,
                 'I love to code.',
                 2000,
                 'I solve problems.',
